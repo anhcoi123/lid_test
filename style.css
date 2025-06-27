@@ -1,0 +1,8 @@
+.hidden { display: none; }
+.quiz-container { max-width:600px; margin:2em auto; font-family:sans-serif; }
+#quiz-header { display:flex; justify-content:space-between; margin-bottom:1em; }
+#quiz-progress { text-align:center; margin-bottom:1em; }
+.answer-option { padding:0.5em; border:1px solid #ddd; border-radius:4px; margin:0.5em 0; cursor:pointer; }
+.answer-correct { background:#e0f9e0; border-color:#3c763d; }
+.answer-wrong   { background:#f9e0e0; border-color:#a94442; }
+#quiz-error { color:#a94442; margin-top:0.5em; }

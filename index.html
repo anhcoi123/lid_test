@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Einbürgerungstest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <div id="quiz-header">
+        <button id="btn-test" class="active">Test</button>
+        <button id="btn-katalog">Fragen Katalog</button>
+        <button id="btn-prev" class="hidden">Zurück</button>
+        <select id="select-jump"></select>
+        <button id="btn-next">Weiter</button>
+      </div>
+
+    <div id="quiz-progress"></div>
+    <div id="quiz-question">
+      <div id="quiz-image"></div>
+      <div id="quiz-text"></div>
+    </div>
+    <form id="quiz-answers"></form>
+    <div id="quiz-error" class="hidden">Bitte wähle eine Antwort aus.</div>
+  </div>
+
+  <!-- your list_items JSON here -->
+  <script src="questions.js"></script>
+  <!-- then our refactored script -->
+  <script src="quiz.js"></script>
+</body>
+</html>
