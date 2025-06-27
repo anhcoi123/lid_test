@@ -6,3 +6,29 @@
 .answer-correct { background:#e0f9e0; border-color:#3c763d; }
 .answer-wrong   { background:#f9e0e0; border-color:#a94442; }
 #quiz-error { color:#a94442; margin-top:0.5em; }
+#quiz-nav-fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  background: rgba(255,255,255,0.95);
+  padding: 1em 0 1.5em 0;
+  z-index: 10002;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
+}
+#quiz-nav-fixed button {
+  font-size: 1.2em;
+  padding: 0.7em 2.2em;
+  border-radius: 2em;
+  border: 1px solid #bbb;
+  background: #f7f7f7;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  transition: background 0.2s;
+}
+#quiz-nav-fixed button:active {
+  background: #e0e0e0;
+}

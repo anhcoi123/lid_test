@@ -59,6 +59,8 @@
         startKatalogMode()
       })
     }
+
+    updateNavPosition()
   }
 
   // -------------- Hilfsfunktionen --------------
@@ -124,7 +126,7 @@
     selJump.style.position = 'fixed'
     selJump.style.right = '2vw'
     selJump.style.bottom = '2vw'
-    selJump.style.zIndex = '10001'
+    selJump.style.zIndex = '10003'
     selJump.style.padding = '0.5em 1.5em'
     selJump.style.borderRadius = '2em'
     selJump.style.boxShadow = '0 2px 8px rgba(0,0,0,0.15)'
@@ -134,6 +136,7 @@
     selJump.style.cursor = 'pointer'
     selJump.title = 'Zu Frage springen'
     if (!document.body.contains(selJump)) document.body.appendChild(selJump)
+    selJump.classList.remove('hidden')
   }
 
   function addEndTestButton() {
@@ -155,6 +158,7 @@
     current = Math.max(0, Math.min(current, items.length - 1))
     const item = items[current]
     prog.textContent = `Frage ${current+1} / ${items.length}`
+    // Buttons im neuen Container sichtbar/unsichtbar schalten
     btnPrev.classList.toggle('hidden', current === 0)
     btnNext.textContent = (current === items.length - 1) ? 'Abschließen' : 'Weiter'
     selJump.value = current
@@ -326,6 +330,11 @@
     qError.classList.add('hidden')
     markAnswers(chosen.value)
     return true
+  }
+
+  // Nach Initialisierung: Navigation anpassen
+  function updateNavPosition() {
+    // Buttons sind jetzt im quiz-nav-fixed Container, keine weitere Logik nötig
   }
 
 })();
