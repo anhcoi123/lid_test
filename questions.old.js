@@ -642,13 +642,13 @@ var list_items = [
     // Frage 59
     {
         "answers": [
-            "vor etwa 300 Jahren",
-            "vor etwa 700 Jahren",
-            "vor etwa 1150 Jahren",
-            "vor etwa 1700 Jahren"
+            "CDU und SSW",
+            "PDS und WASG",
+            "CSU und FDP",
+            "Bündnis 90/Die Grünen und SPD"
         ],
-        "correctAnswerIndex": 3,
-        "questionText": "Vor wie vielen Jahren gab es erstmals eine jüdische Gemeinde auf dem Gebiet des heutigen Deutschlands?"
+        "correctAnswerIndex": 1,
+        "questionText": "Welche Parteien wurden in Deutschland 2007 zur Partei „Die Linke“?"
     },
     // Frage 60
     {
@@ -719,13 +719,13 @@ var list_items = [
     // Frage 66
     {
         "answers": [
-            "Berlin und München",
-            "Hamburg und Essen",
-            "Nürnberg und Stuttgart",
-            "Worms und Speyer",
+            "Friedrich von Schiller",
+            "Clemens Brentano",
+            "Johann Wolfgang von Goethe",
+            "Heinrich Hoffmann von Fallersleben"
         ],
-        "correctAnswerIndex": 0,
-        "questionText": "Welche Städte haben die größten jüdischen Gemeinden in Deutschland?"
+        "correctAnswerIndex": 3,
+        "questionText": "Wer schrieb den Text zur deutschen Nationalhymne?"
     },
     // Frage 67
     {
@@ -1050,13 +1050,13 @@ var list_items = [
     // Frage 96
     {
         "answers": [
-            "Kürzung sozialer Leistungen",
-            "bis zu 100 Sozialstunden",
-            "gar nicht, Holocaustleugnung ist erlaubt",
-            "mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe"
+            "einen Reisepass",
+            "einen Personalausweis",
+            "einen Sozialversicherungsausweis",
+            "einen Führerschein"
         ],
-        "correctAnswerIndex": 3,
-        "questionText": "Wie kann jemand, der den Holocaust leugnet, bestraft werden?"
+        "correctAnswerIndex": 1,
+        "questionText": "Was muss jeder deutsche Staatsbürger / jede deutsche Staatsbürgerin ab dem 16. Lebensjahr besitzen?"
     },
     // Frage 97
     {
@@ -1215,13 +1215,13 @@ var list_items = [
     // Frage 111
     {
         "answers": [
-            "die Politik Israels öffentlich kritisieren",
-            "das Aufhängen einer israelischen Flagge auf dem Privatgrundstück",
-            "eine Diskussion über die Politik Israels",
-            "der öffentliche Aufruf zur Vernichtung Israels"
+            "Alle deutschen Staatsangehörigen dürfen wählen, wenn sie das Mindestalter erreicht haben.",
+            "Nur verheiratete Personen dürfen wählen.",
+            "Nur Personen mit einem festen Arbeitsplatz dürfen wählen.",
+            "Alle Einwohner und Einwohnerinnen in Deutschland müssen wählen."
         ],
-        "correctAnswerIndex": 3,
-        "questionText": "Welche Handlung mit Bezug auf den Staat Israel ist in Deutschland verboten?"
+        "correctAnswerIndex": 0,
+        "questionText": "In Deutschland darf man wählen. Was bedeutet das?"
     },
     // Frage 112
     {
@@ -1292,13 +1292,13 @@ var list_items = [
     // Frage 118
     {
         "answers": [
-            "nur Deutsche",
-            "nur Israelis",
-            "nur religiöse Menschen",
-            "alle Menschen"
+            "Wer wählen darf, muss wählen.",
+            "Alle die wollen, können wählen.",
+            "Wer nicht wählt, verliert das Recht zu wählen.",
+            "Wer wählen darf, kann wählen."
         ],
         "correctAnswerIndex": 3,
-        "questionText": "Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?"
+        "questionText": "Was regelt das Wahlrecht in Deutschland?"
     },
     // Frage 119
     {
@@ -1634,13 +1634,13 @@ var list_items = [
     // Frage 149
     {
         "answers": [
-            "ein jüdisches Fest besuchen",
-            "die israelische Regierung kritisieren",
-            "den Holocaust leugnen",
-            "gegen Juden Fußball spielen"
+            "alle in Deutschland geborenen Einwohner / Einwohnerinnen über 18 Jahre",
+            "alle deutschen Staatsangehörigen älter als 24 und jünger als 70 Jahre",
+            "alle Personen, die seit mindestens 5 Jahren in Deutschland leben",
+            "nur Personen mit einem abgeschlossenen Jurastudium"
         ],
-        "correctAnswerIndex": 2,
-        "questionText": "Was ist ein Beispiel für antisemitisches Verhalten?"
+        "correctAnswerIndex": 1,
+        "questionText": "Wer kann Gerichtsschöffe / Gerichtsschöffin in Deutschland werden?"
     },
     // Frage 150
     {
@@ -1999,13 +1999,13 @@ var list_items = [
     // Frage 182
     {
         "answers": [
-            "Basilika",
-            "Moschee",
-            "Synagoge",
-            "Kirche"
+            "KPD und SPD",
+            "SPD und CDU",
+            "CDU und FDP",
+            "KPD und CSU"
         ],
-        "correctAnswerIndex": 2,
-        "questionText": "Wie heißt das jüdische Gebetshaus?"
+        "correctAnswerIndex": 0,
+        "questionText": "Welche Parteien wurden 1946 zwangsweise zur SED vereint, der Einheitspartei der späteren DDR?"
     },
     // Frage 183
     {
@@ -2021,13 +2021,13 @@ var list_items = [
     // Frage 184
     {
         "answers": [
-            "eine Resolution der Vereinten Nationen",
-            "ein Beschluss des Zionistenkongresses",
-            "ein Vorschlag der Bundesregierung",
-            "ein Vorschlag der UdSSR"
+            "Damit wird die Zeit nach der Wende im Jahr 1989 bezeichnet.",
+            "Damit wurde der Beginn des Zweiten Weltkrieges bezeichnet.",
+            "Darunter verstand man das Ende des Zweiten Weltkrieges und den Beginn des Wiederaufbaus.",
+            "Damit ist die Stunde gemeint, in der die Uhr von der Sommerzeit auf die Winterzeit umgestellt wird."
         ],
-        "correctAnswerIndex": 0,
-        "questionText": "Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?"
+        "correctAnswerIndex": 2,
+        "questionText": "Was nannten die Menschen in Deutschland sehr lange „Die Stunde Null“?"
     },
     // Frage 185
     {
@@ -2264,13 +2264,13 @@ var list_items = [
     // Frage 206
     {
         "answers": [
-            "an berühmte deutsche Politikerinnen und Politiker",
-            "an die Opfer des Nationalsozialismus",
-            "an Verkehrstote",
-            "an bekannte jüdische Musiker"
+            "In der Bundesrepublik waren Demonstrationen nur am Montag erlaubt.",
+            "Montags waren Demonstrationen gegen das DDR-Regime.",
+            "Am ersten Montag im Monat trafen sich in der Bundesrepublik Deutschland Demonstranten.",
+            "Montags demonstrierte man in der DDR gegen den Westen."
         ],
         "correctAnswerIndex": 1,
-        "questionText": "Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?"
+        "questionText": "Was bedeutete im Jahr 1989 in Deutschland das Wort „Montagsdemonstration“?"
     },
     // Frage 207
     {
@@ -3170,13 +3170,13 @@ var list_items = [
     // Frage 288
     {
         "answers": [
-            "aus der Mitgliedschaft in der Europäischen Union (EU)",
-            "aus den nationalsozialistischen Verbrechen gegen Juden",
-            "aus dem Grundgesetz der Bundesrepublik Deutschland",
-            "aus der christlichen Tradition"
+            "beim Finanzamt",
+            "beim Einwohnermeldeamt",
+            "bei der Kommune (Stadt oder Gemeinde)",
+            "beim Gesundheitsamt"
         ],
-        "correctAnswerIndex": 1,
-        "questionText": "Woraus begründet sich Deutschlands besondere Verantwortung für Israel?"
+        "correctAnswerIndex": 2,
+        "questionText": "Bei welchem Amt muss man in Deutschland in der Regel seinen Hund anmelden?"
     },
     // Frage 289
     {
