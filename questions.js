@@ -715,11 +715,11 @@ var list_items = [
     {
         "answers": [
             "Gerhard Schröder",
-            "Jürgen Rüttgers",
-            "Klaus Wowereit",
+            "Friedrich Merz",
+            "Ursula von der Leyen",
             "Angela Merkel"
         ],
-        "correctAnswerIndex": 3,
+        "correctAnswerIndex": 1,
         "questionText": "Wie heißt der jetzige Bundeskanzler / die jetzige Bundeskanzlerin von Deutschland?"
     },
     {
